@@ -13,3 +13,15 @@ class School(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class DemandCategory(models.Model):
+    name = models.CharField(max_length=100)
+    description = models.TextField(blank=True)
+
+    class Meta:
+        db_table = 'demand_categories'
+        verbose_name_plural = 'Demand Categories'
+
+    def __str__(self):
+        return self.name
