@@ -10,7 +10,7 @@
 </template>
 
 <script setup lang="ts">
-import type { Demand } from '~/frontend/types/demand'
+import type { Demand } from '~/types/demand'
 
 defineProps<{ demand: Demand }>()
 

@@ -5,7 +5,7 @@
 </template>
 
 <script setup lang="ts">
-import type { DemandStatus } from '~/frontend/types/demand'
+import type { DemandStatus } from '~/types/demand'
 
 const props = defineProps<{ status: DemandStatus }>()
 

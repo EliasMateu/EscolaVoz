@@ -38,7 +38,7 @@
 </template>
 
 <script setup lang="ts">
-import type { Demand } from '~/frontend/types/demand'
+import type { Demand } from '~/types/demand'
 
 defineProps<{ demands: Demand[]; loading: boolean; editable?: boolean }>()
 const emit = defineEmits<{ 'update-status': [id: number, status: string] }>()

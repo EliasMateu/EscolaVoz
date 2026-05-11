@@ -1,5 +1,5 @@
 import { defineStore } from 'pinia'
-import type { Demand, DemandCreate, PaginatedResponse } from '~/frontend/types/demand'
+import type { Demand, DemandCreate, PaginatedResponse } from '~/types/demand'
 
 export const useDemandsStore = defineStore('demands', {
   state: () => ({

@@ -1,5 +1,5 @@
 import { defineStore } from 'pinia'
-import type { School, DemandCategory } from '~/frontend/types/core'
+import type { School, DemandCategory } from '~/types/core'
 
 export const useSchoolsStore = defineStore('schools', {
   state: () => ({

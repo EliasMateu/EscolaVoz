@@ -1,5 +1,5 @@
 import axios, { type AxiosInstance } from 'axios'
-import { useAuthStore } from '~/frontend/stores/auth'
+import { useAuthStore } from '~/stores/auth'
 
 export function useApi(): AxiosInstance {
   const config = useRuntimeConfig()
