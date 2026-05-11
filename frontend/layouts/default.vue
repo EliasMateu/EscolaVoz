@@ -1,0 +1,13 @@
+<template>
+  <div class="min-h-screen bg-gray-50">
+    <AppNavbar />
+    <main class="container mx-auto px-4 py-6">
+      <slot />
+    </main>
+  </div>
+</template>
+
+<script setup lang="ts">
+const auth = useAuthStore()
+auth.restoreFromStorage()
+</script>
